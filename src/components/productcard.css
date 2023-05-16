@@ -1,0 +1,60 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container{
+    border: 1px solid black;
+    height: 420px;
+    width: 290px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.top-part{
+    height: 80%;
+    position: relative;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+.bottom-part{
+    height:20%
+}
+.title{
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 10px;
+
+}
+
+.cat-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-div{
+    display: flex;
+    gap: 5px;
+}
+
+.price{
+    text-decoration: line-through;
+    color: rgb(156, 165, 165);
+}
+.cart{
+    margin-left: 5px;
+    color: blue;
+    cursor: pointer;
+    
+}
+
+.cart:hover{
+    color: rgb(74, 109, 121);
+}

@@ -1,0 +1,55 @@
+img{
+    width: 100%;
+   
+}
+text{
+    margin-left: 50%;
+}
+
+.image-container{
+  position: relative;
+  z-index: 0;
+  
+    overflow: hidden;
+    width: 100%;
+    animation: slide 0.5s ease-in-out forwards;
+  
+  
+}
+
+
+.left-arrow{
+
+    position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  background-color: rgba(0, 0,0,0);
+  cursor: pointer;
+
+}
+.left-arrow:hover{
+    background-color: grey;
+}
+.right-arrow{
+
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 50px);
+    transform: translate(-50%, -50%);
+  font-size: 2rem;
+  background-color: rgba(0, 0,0,0);
+  cursor: pointer;
+
+
+
+}
+.right-arrow:hover{
+    background-color: gray;
+}
+
+.arrow-gap{
+    display: flex;
+    gap: 250px;
+}
